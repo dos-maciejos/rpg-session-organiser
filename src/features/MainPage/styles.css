@@ -1,6 +1,8 @@
 body {
   margin: 0;
   background-color: rgba(167, 170, 168, 0.747);
+  overflow-y: scroll;
+  cursor: default;
 }
 .container {
   width: 100%;
