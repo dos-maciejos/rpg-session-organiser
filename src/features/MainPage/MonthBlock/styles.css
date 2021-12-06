@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+.monthBlock {
+  background-color: rgba(128, 187, 219, 0.66);
+  margin-top: 5%;
+  padding: 50px;
+  border-radius: 10%;
+  color: rgba(52, 56, 54, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 320px;
+}
+.monthBlockHeader {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 64px;
+  text-align: center;
+  color: rgba(52, 56, 54, 0.8);
+}
+.monthMainBlock {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+.weekDay {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(52, 56, 54, 1);
+  padding: 5px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+.weekendDay {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(151, 0, 0, 0.7);
+  padding: 5px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+.weekDaysBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
