@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .baner {
     width: 100%;
     height: auto;
@@ -10,7 +11,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(128, 187, 219, 0.8);
 }
 .banerTextRed {
     font-family: 'Nunito', sans-serif;
@@ -18,10 +18,10 @@
     padding-top: 0.5%;
     color: rgba(151, 0, 0, 0.7);
     text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
-    transition: ease-in-out;
 }
 .banerTextRed:hover {
-    color: rgba(151, 0, 0, 1);
+    font-family: 'Nunito', sans-serif;
+    color: rgba(92, 16, 235, 0.6);
     transform:scale(1.2,1.2);
 }
 .banerBlockUnderline {
@@ -35,6 +35,105 @@
     padding-top: 0.5%;
     color: rgba(0, 0, 0, 0.6);
     text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextA {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextB {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextC {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextD {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextE {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextF {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextG {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextH {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextI {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextA:hover {
+    color: rgb(0, 170, 0);
+    transform:scale(1.2,1.2);
+}
+.banerTextB:hover {
+    color: rgb(0, 170, 170);
+    transform:scale(1.2,1.2);
+}
+.banerTextC:hover {
+    color: rgb(255, 85, 85);
+    transform:scale(1.2,1.2);
+}
+.banerTextD:hover {
+    color: rgb(210, 105, 30);
+    transform:scale(1.2,1.2);
+}
+.banerTextE:hover {
+    color: rgb(255, 255, 255);
+    transform:scale(1.2,1.2);
+}
+.banerTextF:hover {
+    color: rgb(255, 170, 0);
+    transform:scale(1.2,1.2);
+}
+.banerTextG:hover {
+    color: rgb(170, 0, 170);
+    transform:scale(1.2,1.2);
+}
+.banerTextH:hover {
+    color: rgb(170, 170, 170);
+    transform:scale(1.2,1.2);
+}
+.banerTextI:hover {
+    color: rgb(85, 255, 85);
+    transform:scale(1.2,1.2);
 }
 .banerLogin {
     display: flex;

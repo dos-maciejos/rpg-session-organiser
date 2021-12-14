@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
 .monthDay {
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 32px;
@@ -19,4 +21,61 @@
   justify-content: center;
   align-items: center;
   color: rgba(151, 0, 0, 0.7);
+}
+        /*STYLING FOR SESSION TERMS*/
+.monthDaySessionProposal {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 32px;
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(52, 56, 54, 0.7);
+  border: 1px solid rgb(213, 115, 61);
+  background-color: rgb(231, 172, 88);
+  border-radius: 30%;
+}
+.monthDayWeekendSessionProposal {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 32px;
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(151, 0, 0, 0.7);
+  border: 1px solid rgb(213, 115, 61);
+  background-color: rgb(231, 172, 88);
+  border-radius: 30%;
+}
+.monthDaySessionTerm {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 32px;
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(52, 56, 54, 0.7);
+  border: 1px solid rgb(30, 117, 61);
+  background-color: rgb(75, 151, 75);
+  border-radius: 30%;
+}
+.monthDayWeekendSessionTerm {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 32px;
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(52, 56, 54, 0.7);
+  border: 1px solid rgb(30, 117, 61);
+  background-color: rgb(75, 151, 75);
+  border-radius: 30%;
 }

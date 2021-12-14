@@ -3,6 +3,7 @@ import './styles.css';
 import { MonthBlock } from './MonthBlock';
 import { PageManual } from './PageManual';
 import { PageBaner } from './PageBaner';
+import { PageFooter } from './PageFooter';
 
 export class MainPage extends React.Component {
   render() {
@@ -17,6 +18,7 @@ export class MainPage extends React.Component {
           <MonthBlock month={month + 1}/>
         </div>
         <PageManual />
+        <PageFooter />
       </div>
     )
   }
