@@ -35,7 +35,6 @@
   color: rgba(52, 56, 54, 0.7);
   border: 1px solid rgb(213, 115, 61);
   background-color: rgb(231, 172, 88);
-  border-radius: 30%;
 }
 .monthDayWeekendSessionProposal {
   font-family: 'Baloo Bhaijaan 2', cursive;
@@ -49,7 +48,6 @@
   color: rgba(151, 0, 0, 0.7);
   border: 1px solid rgb(213, 115, 61);
   background-color: rgb(231, 172, 88);
-  border-radius: 30%;
 }
 .monthDaySessionTerm {
   font-family: 'Baloo Bhaijaan 2', cursive;
@@ -63,7 +61,6 @@
   color: rgba(52, 56, 54, 0.7);
   border: 1px solid rgb(30, 117, 61);
   background-color: rgb(75, 151, 75);
-  border-radius: 30%;
 }
 .monthDayWeekendSessionTerm {
   font-family: 'Baloo Bhaijaan 2', cursive;
@@ -74,8 +71,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgba(52, 56, 54, 0.7);
+  color: rgba(151, 0, 0, 0.7);
   border: 1px solid rgb(30, 117, 61);
   background-color: rgb(75, 151, 75);
-  border-radius: 30%;
 }

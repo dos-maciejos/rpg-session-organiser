@@ -4,4 +4,4 @@ export const daysCalc = (day, weekday) => {
             return day - i;
         } 
     }
-}  
+}

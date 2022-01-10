@@ -39,13 +39,16 @@
     font-size: 56px;
     color: rgb(0, 0, 0, 0.6);
     line-height: 1.3;
+    position: relative;
 }
 .gmText {
     color: rgba(98, 37, 209, 0.9);
     font-weight: 700;
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.3);
 }
 .gmName {
     color: rgba(98, 37, 209, 0.7);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.3);
 }
 .manualMainGuide {
     padding-top: 5%;
@@ -53,6 +56,10 @@
     font-size: 56px;
     color: rgba(236, 171, 48, 0.6);
     text-align: center;
+}
+.manualMainGuideBox {
+    padding-top: 10%;
+    padding-left: 30%;
 }
 .manualMainGuideHeader {
     padding-top: 1%;
@@ -63,4 +70,7 @@
     text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
     text-align: center;
     background-color: rgba(128, 187, 219, 0.7);
+}
+.us {
+    text-shadow: 2px 2px rgba(98, 37, 209, 0.2);
 }

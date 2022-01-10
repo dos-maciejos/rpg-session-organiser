@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css';
+import './styles.css'
 import '../../../shared/utils/functions'
 
 export class PageBaner extends React.Component {
@@ -70,14 +70,21 @@ export class PageBaner extends React.Component {
           </div>
           <div className='banerTextH'>
             R
-          </div>              
+          </div>                  
         </div>
-        <div className='banerLogin'>
-          <div className='banerLoginBox'>LOGGED AS</div>
-        </div>
+        <LoggedAs />
       </div>
       <div className='banerBlockUnderline'></div>
     </div>
+    )
+  }
+}
+
+class LoggedAs extends React.Component {
+  render() {
+    let isGM = false;
+    return (
+      isGM === true ? <div className='banerLoginBoxGM'><div className='gm'>GM</div>LOGGED AS</div> : <div className='banerLoginBox'>LOGGED AS</div>
     )
   }
 }

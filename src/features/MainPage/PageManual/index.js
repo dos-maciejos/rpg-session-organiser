@@ -13,7 +13,7 @@ export class PageManual extends React.Component {
           <div className='manualMain'>
             <div className='manualMainDescription'>
                 <div className='manualMainDescriptionText'>
-                  Site which will hopefully help our wonderful <a className='gmText'>GM</a> <a className='gmName'>Passion fruit</a> organise D&D sessions for <a>us</a>.
+                  Site which will hopefully help our wonderful <a className='gmText'>GM</a> <a className='gmName'>Passion fruit</a> organise D&D sessions for <a className='us'>us</a>.
                 </div>
             </div>
             <div className='manualMainGuide'>
@@ -21,9 +21,11 @@ export class PageManual extends React.Component {
                 <div className='manualMainGuideHeader'>
                   How to use
                 </div>
-                TO BE CONTINUED
-                <div className='monthDaySessionProposal'>1</div>
-                <div className='monthDaySessionTerm'>2</div>
+                <div className='manualMainGuideBox'>
+                  <div className='monthDaySessionProposal'>1</div>
+                  a
+                  <div className='monthDaySessionTerm'>2</div>
+                </div>
               </div>
           </div>                   
       </div>
