@@ -11,7 +11,7 @@ export class MainPage extends React.Component {
     let month = date.getMonth();
     return (
       <div>
-        <PageBaner />
+        <PageBaner isGm={this.props.isGm} username={this.props.username} setAccessToken={this.props.setAccessToken} />
         <div className='container'>
           <MonthBlock month={month - 1}/>
           <MonthBlock month={month }/>

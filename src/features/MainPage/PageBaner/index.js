@@ -3,9 +3,19 @@ import './styles.css'
 import '../../../shared/utils/functions'
 
 export class PageBaner extends React.Component {
+
+  logOut = () => {
+    this.props.setAccessToken("");
+    localStorage.clear();
+  }
+
   render() {
+    console.log(this.props);
     return (
     <div>
+      <button onClick={this.logOut}>
+        log out
+      </button>
       <div className='baner'>
         <div className='banerBlock'>
           <div className='banerTextF'>
@@ -72,7 +82,7 @@ export class PageBaner extends React.Component {
             R
           </div>                  
         </div>
-        <LoggedAs />
+        <LoggedAs isGm={this.props.isGm} username={this.props.username} />
       </div>
       <div className='banerBlockUnderline'></div>
     </div>
@@ -82,9 +92,12 @@ export class PageBaner extends React.Component {
 
 class LoggedAs extends React.Component {
   render() {
-    let isGM = false;
     return (
-      isGM === true ? <div className='banerLoginBoxGM'><div className='gm'>GM</div>LOGGED AS</div> : <div className='banerLoginBox'>LOGGED AS</div>
+      this.props.isGm === true ? (
+        <div className='banerLoginBoxGM'><div className='gm'>GM</div>LOGGED AS</div>
+      ) : (
+        <div className='banerLoginBox'>LOGGED AS {this.props.username} </div>
+      )
     )
   }
 }
