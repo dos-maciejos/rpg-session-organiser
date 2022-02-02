@@ -4,6 +4,11 @@ import '../../../shared/utils/functions'
 
 export class PageBaner extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {login: 0};
+  }
+
   logOut = () => {
     this.props.setAccessToken("");
     localStorage.clear();
@@ -13,9 +18,6 @@ export class PageBaner extends React.Component {
     console.log(this.props);
     return (
     <div>
-      <button onClick={this.logOut}>
-        log out
-      </button>
       <div className='baner'>
         <div className='banerBlock'>
           <div className='banerTextF'>
@@ -81,8 +83,12 @@ export class PageBaner extends React.Component {
           <div className='banerTextH'>
             R
           </div>                  
+        </div> 
+        <div className='logged'>
+          <LoggedAs isGm={this.props.isGm} username={this.props.username} />
+          <div className='LoggedUnderline'></div>
+          <div onClick={this.logOut} className='logbutton'>log out</div>
         </div>
-        <LoggedAs isGm={this.props.isGm} username={this.props.username} />
       </div>
       <div className='banerBlockUnderline'></div>
     </div>
@@ -94,9 +100,9 @@ class LoggedAs extends React.Component {
   render() {
     return (
       this.props.isGm === true ? (
-        <div className='banerLoginBoxGM'><div className='gm'>GM</div>LOGGED AS</div>
+        <div className='banerLoginBoxGM'><a className='gm'>GM&nbsp;</a> {this.props.username} </div>
       ) : (
-        <div className='banerLoginBox'>LOGGED AS {this.props.username} </div>
+        <div className='banerLoginBox'>{this.props.username} </div>
       )
     )
   }

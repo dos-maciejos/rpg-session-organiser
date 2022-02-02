@@ -6,7 +6,7 @@ export class MonthBlock extends React.Component {
   render() {
     const months = ['January','February','March','April','May','June','July','August','September','October','November','December']
     const numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37]
-    let monthName =  this.props.month > 12 ? months[this.props.month - 12] : this.props.month === 12 ? months[0] : months[this.props.month]
+    let monthName =  this.props.month > 12 ? months[this.props.month - 12] : this.props.month === 12 ? months[0] : this.props.month === -1 ? months[11] : months[this.props.month]
     let date = new Date();
     let daysInMonth = new Date(date.getFullYear(), this.props.month + 1 , 0).getDate();
     let a =  numbers.map ( day => {

@@ -1,0 +1,186 @@
+body {
+    background-color: rgba(128, 187, 219, 0.8);
+}
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logIn {
+    background-color: rgba(128, 187, 219, 0.66);
+    border-radius: 10%;
+    width: 700px;
+    height: 250px;
+    margin-top: 100px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.logInText {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 36px;
+}
+.usernameInput {
+    border: none;
+    width: 420px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: rgb(108, 167, 199);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
+}
+.LogInButton {
+    width: 320px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(108, 167, 199);
+}
+.LogInButton:hover {
+    background-color: rgb(88, 147, 199);
+}
+.ButtonDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.baner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(128, 187, 219, 0.8);
+}
+.banerBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banerTextRed {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(151, 0, 0, 0.7);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextRed:hover {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(92, 16, 235, 0.6);
+    transform:scale(1.2,1.2);
+}
+.banerBlockUnderline {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(151, 0, 0, 0.7);
+}
+.banerText {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextA {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextB {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextC {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextD {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextE {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextF {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextG {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextH {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextI {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px rgba(52, 56, 54, 0.2);
+}
+.banerTextA:hover {
+    color: rgb(0, 170, 0);
+    transform:scale(1.2,1.2);
+}
+.banerTextB:hover {
+    color: rgb(0, 170, 170);
+    transform:scale(1.2,1.2);
+}
+.banerTextC:hover {
+    color: rgb(255, 85, 85);
+    transform:scale(1.2,1.2);
+}
+.banerTextD:hover {
+    color: rgb(210, 105, 30);
+    transform:scale(1.2,1.2);
+}
+.banerTextE:hover {
+    color: rgb(255, 255, 255);
+    transform:scale(1.2,1.2);
+}
+.banerTextF:hover {
+    color: rgb(255, 170, 0);
+    transform:scale(1.2,1.2);
+}
+.banerTextG:hover {
+    color: rgb(170, 0, 170);
+    transform:scale(1.2,1.2);
+}
+.banerTextH:hover {
+    color: rgb(170, 170, 170);
+    transform:scale(1.2,1.2);
+}
+.banerTextI:hover {
+    color: rgb(85, 255, 85);
+    transform:scale(1.2,1.2);
+}
